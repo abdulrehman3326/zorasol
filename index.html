@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>zorasol.com — Premium Brandable .COM Domain For Sale</title>
+  <style>
+    :root {
+      --bg: #070b14;
+      --surface: #101726;
+      --surface-light: #162033;
+      --border: #24324d;
+      --text: #f8fafc;
+      --muted: #94a3b8;
+      --accent: #f59e0b;
+      --accent-hover: #d97706;
+      --whatsapp: #22c55e;
+      --whatsapp-hover: #16a34a;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+
+    body {
+      background: radial-gradient(circle at 20% 0%, #172542 0%, var(--bg) 55%);
+      color: var(--text);
+      min-height: 100vh;
+      line-height: 1.6;
+      padding: 28px 18px;
+    }
+
+    .wrapper {
+      max-width: 1040px;
+      margin: 0 auto;
+    }
+
+    /* Top Trust Bar */
+    .top-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-bottom: 28px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      font-size: 0.88rem;
+      color: var(--muted);
+    }
+
+    .status-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(245, 158, 11, 0.12);
+      color: var(--accent);
+      border: 1px solid rgba(245, 158, 11, 0.35);
+      padding: 5px 14px;
+      border-radius: 999px;
+      font-weight: 600;
+      font-size: 0.82rem;
+    }
+
+    .dot {
+      width: 8px;
+      height: 8px;
+      background: var(--accent);
+      border-radius: 50%;
+      animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.35; transform: scale(1.25); }
+    }
+
+    /* Main Grid */
+    .grid {
+      display: grid;
+      grid-template-columns: 1.15fr 0.85fr;
+      gap: 28px;
+      align-items: start;
+    }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 32px;
+      box-shadow: 0 24px 48px rgba(0, 0, 0, 0.4);
+    }
+
+    h1 {
+      font-size: clamp(2.2rem, 4.5vw, 3.3rem);
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      line-height: 1.1;
+      margin-bottom: 14px;
+    }
+
+    h1 span {
+      color: var(--accent);
+    }
+
+    .lead {
+      font-size: 1.08rem;
+      color: #cbd5e1;
+      margin-bottom: 24px;
+    }
+
+    .scarcity-box {
+      background: rgba(245, 158, 11, 0.08);
+      border-left: 3px solid var(--accent);
+      padding: 12px 16px;
+      border-radius: 0 10px 10px 0;
+      font-size: 0.92rem;
+      color: #fde68a;
+      margin-bottom: 26px;
+    }
+
+    .section-title {
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      margin-bottom: 12px;
+      font-weight: 700;
+    }
+
+    .use-cases {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin-bottom: 28px;
+    }
+
+    .use-case {
+      background: var(--surface-light);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 14px;
+    }
+
+    .use-case strong {
+      display: block;
+      font-size: 0.95rem;
+      margin-bottom: 4px;
+      color: var(--text);
+    }
+
+    .use-case p {
+      font-size: 0.84rem;
+      color: var(--muted);
+      line-height: 1.45;
+    }
+
+    /* Trust Strip */
+    .trust-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      margin-bottom: 26px;
+      text-align: center;
+    }
+
+    .trust-item {
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 12px 8px;
+      font-size: 0.82rem;
+      color: #cbd5e1;
+    }
+
+    .trust-item strong {
+      display: block;
+      color: var(--accent);
+      font-size: 0.9rem;
+      margin-bottom: 2px;
+    }
+
+    /* Direct Contact */
+    .contact-direct {
+      border-top: 1px solid var(--border);
+      padding-top: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .contact-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid var(--border);
+      padding: 10px 14px;
+      border-radius: 10px;
+      font-size: 0.9rem;
+    }
+
+    .contact-row a {
+      color: var(--text);
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .contact-row a:hover {
+      color: var(--accent);
+    }
+
+    .copy-btn {
+      background: transparent;
+      border: 1px solid var(--border);
+      color: var(--muted);
+      padding: 5px 12px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 0.8rem;
+      transition: all 0.2s;
+    }
+
+    .copy-btn:hover {
+      color: var(--text);
+      border-color: var(--accent);
+    }
+
+    /* Offer Form Card */
+    .form-card {
+      position: sticky;
+      top: 24px;
+      border-color: rgba(245, 158, 11, 0.4);
+    }
+
+    .form-card h2 {
+      font-size: 1.5rem;
+      margin-bottom: 6px;
+    }
+
+    .form-sub {
+      color: var(--muted);
+      font-size: 0.9rem;
+      margin-bottom: 20px;
+    }
+
+    .form-group {
+      margin-bottom: 14px;
+    }
+
+    label {
+      display: block;
+      font-size: 0.84rem;
+      color: #cbd5e1;
+      margin-bottom: 6px;
+      font-weight: 500;
+    }
+
+    input, textarea {
+      width: 100%;
+      background: #070b14;
+      border: 1px solid var(--border);
+      color: var(--text);
+      padding: 12px 14px;
+      border-radius: 10px;
+      font-size: 0.95rem;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+
+    input:focus, textarea:focus {
+      border-color: var(--accent);
+    }
+
+    textarea {
+      resize: vertical;
+      min-height: 82px;
+    }
+
+    .btn-group {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 18px;
+    }
+
+    .btn {
+      width: 100%;
+      padding: 14px 18px;
+      border: none;
+      border-radius: 10px;
+      font-size: 0.98rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: transform 0.1s, background 0.2s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+    }
+
+    .btn:active {
+      transform: scale(0.99);
+    }
+
+    .btn-email {
+      background: var(--accent);
+      color: #111827;
+    }
+
+    .btn-email:hover {
+      background: var(--accent-hover);
+      color: #ffffff;
+    }
+
+    .btn-whatsapp {
+      background: var(--whatsapp);
+      color: #052e16;
+    }
+
+    .btn-whatsapp:hover {
+      background: var(--whatsapp-hover);
+      color: #ffffff;
+    }
+
+    .form-footer {
+      margin-top: 16px;
+      font-size: 0.8rem;
+      color: var(--muted);
+      text-align: center;
+      line-height: 1.5;
+    }
+
+    @media (max-width: 840px) {
+      .grid {
+        grid-template-columns: 1fr;
+      }
+      .form-card {
+        position: static;
+      }
+    }
+
+    @media (max-width: 520px) {
+      .use-cases, .trust-grid {
+        grid-template-columns: 1fr;
+      }
+      .card {
+        padding: 22px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="wrapper">
+    <!-- Top Bar -->
+    <header class="top-bar">
+      <div class="status-pill">
+        <span class="dot"></span>
+        Premium Domain Available Now
+      </div>
+      <div>Direct Owner Sale • Zero Broker Commission</div>
+    </header>
+
+    <main class="grid">
+      <!-- Left Column: Persuasive Pitch -->
+      <section class="card">
+        <h1>zorasol<span>.com</span></h1>
+        <p class="lead">
+          Build an unforgettable brand on a short, authoritative <strong>7-letter .COM</strong>. Clean, modern, and instantly pronounceable worldwide.
+        </p>
+
+        <div class="scarcity-box">
+          <strong>One-of-a-kind digital asset:</strong> There is only one <strong>zorasol.com</strong>. Once acquired, it is permanently off the market.
+        </div>
+
+        <div class="section-title">Why ZoraSol.com Stands Out</div>
+        <div class="use-cases">
+          <div class="use-case">
+            <strong>Solar &amp; Clean Energy</strong>
+            <p>"Sol" means sun—an effortless, high-trust name for solar tech, EV charging, or green energy.</p>
+          </div>
+          <div class="use-case">
+            <strong>Tech &amp; IT Solutions</strong>
+            <p>Short for "Zora Solutions"—ideal for a SaaS platform, AI startup, or software agency.</p>
+          </div>
+          <div class="use-case">
+            <strong>Web3 &amp; Solana Projects</strong>
+            <p>A natural, memorable .com home for any Solana-based ("Sol") ecosystem or crypto brand.</p>
+          </div>
+          <div class="use-case">
+            <strong>Global Brand Authority</strong>
+            <p>No hyphens, no numbers, passes the radio test—customers remember it the first time they hear it.</p>
+          </div>
+        </div>
+
+        <div class="trust-grid">
+          <div class="trust-item">
+            <strong>100% Safe</strong>
+            Escrow.com &amp; Sedo Supported
+          </div>
+          <div class="trust-item">
+            <strong>Direct Deal</strong>
+            Negotiate Directly With Owner
+          </div>
+          <div class="trust-item">
+            <strong>Fast Reply</strong>
+            Responses Within Hours
+          </div>
+        </div>
+
+        <div class="contact-direct">
+          <div class="section-title" style="margin-bottom: 4px;">Direct Owner Contact</div>
+          <div class="contact-row">
+            <div>
+              <small style="color: var(--muted); display:block;">Email</small>
+              <a href="mailto:abdulrehmanjabla7@gmail.com">abdulrehmanjabla7@gmail.com</a>
+            </div>
+            <button type="button" class="copy-btn" onclick="copyText('abdulrehmanjabla7@gmail.com', this)">Copy</button>
+          </div>
+
+          <div class="contact-row">
+            <div>
+              <small style="color: var(--muted); display:block;">WhatsApp</small>
+              <a href="https://wa.me/923020079073" target="_blank" rel="noopener">+92 302 0079073</a>
+            </div>
+            <button type="button" class="copy-btn" onclick="copyText('+923020079073', this)">Copy</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Right Column: Fixed Offer Form -->
+      <section class="card form-card">
+        <h2>Make an Offer</h2>
+        <p class="form-sub">Serious inquiries only. Submit your offer below to start a confidential negotiation.</p>
+
+        <form id="offerForm" action="https://formsubmit.co/abdulrehmanjabla7@gmail.com" method="POST">
+          <input type="hidden" name="_subject" value="New Offer for zorasol.com" />
+          <input type="hidden" name="_captcha" value="false" />
+          <input type="hidden" name="_template" value="table" />
+
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="Name" placeholder="e.g. Alex Morgan" required />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Your Email Address</label>
+            <input type="email" id="email" name="Email" placeholder="e.g. alex@company.com" required />
+          </div>
+
+          <div class="form-group">
+            <label for="offer">Your Offer (USD)</label>
+            <input type="number" id="offer" name="Offer (USD)" placeholder="e.g. 1500" min="1" required />
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message (Optional)</label>
+            <textarea id="message" name="Message" placeholder="Tell us about your timeline or preferred escrow service..."></textarea>
+          </div>
+
+          <div class="btn-group">
+            <button type="submit" class="btn btn-email">
+              Send Offer via Email
+            </button>
+            <button type="button" class="btn btn-whatsapp" onclick="sendWhatsApp()">
+              Negotiate Instantly on WhatsApp
+            </button>
+          </div>
+        </form>
+
+        <p class="form-footer">
+          All offers are confidential. Transactions can be completed securely through <strong>Escrow.com</strong> or <strong>Sedo</strong> for complete buyer protection.
+        </p>
+      </section>
+    </main>
+  </div>
+
+  <script>
+    const OWNER_WHATSAPP = "923020079073";
+
+    function copyText(text, btn) {
+      navigator.clipboard.writeText(text).then(() => {
+        const original = btn.textContent;
+        btn.textContent = "Copied!";
+        setTimeout(() => (btn.textContent = original), 1500);
+      });
+    }
+
+    function sendWhatsApp() {
+      const name = document.getElementById("name").value.trim();
+      const email = document.getElementById("email").value.trim();
+      const offer = document.getElementById("offer").value.trim();
+      const message = document.getElementById("message").value.trim();
+
+      let text = "Hello, I am interested in acquiring zorasol.com.";
+      if (name || offer || message) {
+        text += "\n\n";
+        if (name) text += `Name: ${name}\n`;
+        if (email) text += `Email: ${email}\n`;
+        if (offer) text += `Offer: $${offer} USD\n`;
+        if (message) text += `Message: ${message}`;
+      }
+
+      const waUrl = `https://wa.me/${OWNER_WHATSAPP}?text=${encodeURIComponent(text)}`;
+      window.open(waUrl, "_blank");
+    }
+  </script>
+
+</body>
+</html>
